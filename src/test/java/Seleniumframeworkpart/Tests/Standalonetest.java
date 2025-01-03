@@ -31,7 +31,7 @@ import Seleniumframeworkpart.pageobject.Productcatalog;
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class Standalonetest extends Basetest{
-
+         //new comment added
 	@Test(dataProvider ="getData",groups = {"purchase"})
 	public void submitOrder(HashMap<String,String> input) throws InterruptedException, IOException {
 //		WebDriverManager.chromedriver().setup();
