@@ -1,0 +1,78 @@
+ 1)run test from maven commands: until we run test from xml file/testng suite but when you integrating projects into  jenkins all then 
+ test execution should done from commands which is pass to commands. 
+ 2) after setting enviornment variable there is one pluggin to add "maven testng integration"
+ 3)<suitexmlfile> look project path from pom.xml so give appropreate
+ 4)when we give mvn it compiles code then it will execute base upon commands.
+ 
+ ---------------------------------------------------------------------------------------------------------------------
+
+ 
+ 
+ -------------------------------------------------------------------------------------------------------------------------
+Run jenkins.war file in cmd:
+
+D:-->cd JenkinsFolder--->java -jar jenkins.war
+
+copy password from cmd and hit localhots:8080 and then proceed for jenkins
+
+password:ed306010b6d045d78f3ac05a0b5c611a   
+
+http://localhost:8080/
+
+jenkins id:admin password:123 email:sagarmne7777@gmail.com
+
+---------------------------------------------
+encapsulation example video 188 rahul shetty academy udemy.com
+
+IMP:why static not use in thread
+Problem with Static in Selenium Threads
+Imagine you have two tests running in parallel:
+Test 1 (Thread 1): Opens Chrome and logs in.
+Test 2 (Thread 2): Opens Firefox and performs a search.
+If the WebDriver is declared static, both threads will share the same driver instance. This leads to:
+Test 1 and Test 2 interfering with each other.
+Actions from Test 1 may affect Test 2 or vice versa, causing test failures.
+n numbers of peoples or thread can read file data in this case there is no issue but n numbers of people can't modified file data bcz data inconsistency or duplicacy of data that is the problem with thread using static 
+
+global properties set: using .properties extension we can set a file in project and one class properties it has abalities to read all data from .properties file. also we can pass from maven command using -Dbrowser
+
+How to identify test supppose you have  100 tests: using testng "group attribute" we mentioned as smoke,regression, etc and mentioned in .xml file. also run through maven commands like set "profiles" in pom.xml files and we write command in cmd like mvn test -P"profilename"
+
+--------------------------------------------------------------------------------------------------------
+Git:it is version control system.Git is like saving different versions of a file on your computer (local).
+GitHub:is central repository system.GitHub is like uploading those versions of the file to Google Drive so others can access, comment, or collaborate in real-time (cloud).
+email:git config --global user.email "sagarmne7777@gmail.com"
+pass: Sagarmane@123
+username:git config --global user.name "SagarMane73"
+
+GitStuff folder which is created in "D" folder 
+
+Steps:1)set username name and email in cmd
+2)make folder that github undertand for further work so basically initialize git file into GitStuff folder so git want to read your local project there will be one file git opens it and taes code, so command is- git init 
+3)commit:need to add files into terminology like staging and commit, 1st add files into staging "git add *" and then from staging  commit get files from staging "git commit -m "first commit".
+4)push code so establish connection:hit command in cmd  "git remote add origin https://github.com/sagargitversion/GitDemo.git"
+5)to pull code from reposotory first time we use: git clone https://github.com/SagarMane73/GitDemo.git(so wee need to set path like where to folder pull in c folder/dfolder here we use )
+6)D:\>git clone https://github.com/SagarMane73/GitDemo.git  -get fresh project from reposotory first time in specific folder where we want 
+D:\>cd GitDemo    - change directro bcz we add updated file/project into github again
+D:\GitDemo>git add *  -staging
+D:\GitDemo>git status - 
+D:\GitDemo>git commit -m "this is commit from Registerdao from GitDemo" -commit projrct
+D:\GitDemo>git push origin master  -add finallly in github 
+D:\GitDemo>cd \  -back to D folder
+D:\>cd GitStuff - change directroy where updated code you want from github 
+D:\GitStuff>git pull origin master - hit command updated code will get into files
+Branching:Keep the Master Branch Stable,Enable Parallel Development, 
+D:\GitStuff>cd \  - change directory
+D:\>cd GitDemo
+D:\GitDemo>git checkout -b develop  -develop new branch from master
+D:\GitDemo>git branch- for checking branch 
+D:\GitDemo>git add * - for staging do similar process like add files/project
+D:\GitDemo>git commit -m "code for branching understanding in Logingdao from GitDemo"   -commit
+D:\GitDemo>git push origin develop      - push code in github
+D:\GitDemo>cd \   - change director bcz fom develop branch need to get updated code into GitStuff
+D:\>cd GitStuff
+ D:\GitStuff>git pull origin develop   - get pull 
+ D:\GitStuff>git checkout develop  -switch to develop branch on GitStuff
+
+
+

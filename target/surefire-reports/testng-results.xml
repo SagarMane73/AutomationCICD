@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-12-30T18:48:46 IST" name="Suite" finished-at="2024-12-30T18:49:26 IST" duration-ms="40093">
+    <groups>
+      <group name="Errorhandling">
+        <method signature="Errorvalidation.loginErrorValidation()[pri:0, instance:Seleniumframeworkpart.Tests.Errorvalidation@79207381]" name="loginErrorValidation" class="Seleniumframeworkpart.Tests.Errorvalidation"/>
+      </group> <!-- Errorhandling -->
+      <group name="purchase">
+        <method signature="Standalonetest.submitOrder(java.util.HashMap)[pri:0, instance:Seleniumframeworkpart.Tests.Standalonetest@2b30a42c]" name="submitOrder" class="Seleniumframeworkpart.Tests.Standalonetest"/>
+      </group> <!-- purchase -->
+    </groups>
+    <test started-at="2024-12-30T18:48:46 IST" name="Errorvalidation order test" finished-at="2024-12-30T18:49:05 IST" duration-ms="19406">
+      <class name="Seleniumframeworkpart.Tests.Errorvalidation">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Seleniumframeworkpart.Tests.Errorvalidation@79207381]" started-at="2024-12-30T18:48:46 IST" name="launchApplication" finished-at="2024-12-30T18:48:54 IST" duration-ms="8464" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="Demo()[pri:0, instance:Seleniumframeworkpart.Tests.Errorvalidation@79207381]" started-at="2024-12-30T18:48:54 IST" name="Demo" finished-at="2024-12-30T18:48:54 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Demo -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Seleniumframeworkpart.Tests.Errorvalidation@79207381]" started-at="2024-12-30T18:48:54 IST" name="tearDown" finished-at="2024-12-30T18:48:56 IST" duration-ms="1864" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Seleniumframeworkpart.Tests.Errorvalidation@79207381]" started-at="2024-12-30T18:48:56 IST" name="launchApplication" finished-at="2024-12-30T18:49:03 IST" duration-ms="7152" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="loginErrorValidation()[pri:0, instance:Seleniumframeworkpart.Tests.Errorvalidation@79207381]" started-at="2024-12-30T18:49:03 IST" name="loginErrorValidation" finished-at="2024-12-30T18:49:04 IST" duration-ms="997" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginErrorValidation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Seleniumframeworkpart.Tests.Errorvalidation@79207381]" started-at="2024-12-30T18:49:04 IST" name="tearDown" finished-at="2024-12-30T18:49:05 IST" duration-ms="829" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Seleniumframeworkpart.Tests.Errorvalidation -->
+    </test> <!-- Errorvalidation order test -->
+    <test started-at="2024-12-30T18:48:46 IST" name="Submit order test" finished-at="2024-12-30T18:49:26 IST" duration-ms="40093">
+      <class name="Seleniumframeworkpart.Tests.Standalonetest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Seleniumframeworkpart.Tests.Standalonetest@2b30a42c]" started-at="2024-12-30T18:48:46 IST" name="launchApplication" finished-at="2024-12-30T18:48:50 IST" duration-ms="3267" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:Seleniumframeworkpart.Tests.Standalonetest@2b30a42c]" started-at="2024-12-30T18:48:50 IST" name="submitOrder" data-provider="getData" finished-at="2024-12-30T18:49:01 IST" duration-ms="11487" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{productname=ADIDAS ORIGINAL, password=Iamking@000, email=anshika@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Seleniumframeworkpart.Tests.Standalonetest@2b30a42c]" started-at="2024-12-30T18:49:01 IST" name="tearDown" finished-at="2024-12-30T18:49:02 IST" duration-ms="657" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Seleniumframeworkpart.Tests.Standalonetest@2b30a42c]" started-at="2024-12-30T18:49:02 IST" name="launchApplication" finished-at="2024-12-30T18:49:10 IST" duration-ms="7911" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:Seleniumframeworkpart.Tests.Standalonetest@2b30a42c]" started-at="2024-12-30T18:49:10 IST" name="submitOrder" data-provider="getData" finished-at="2024-12-30T18:49:25 IST" duration-ms="15767" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{productname=ADIDAS ORIGINAL, password=Sagar@123, email=sagarmne7777@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Seleniumframeworkpart.Tests.Standalonetest@2b30a42c]" started-at="2024-12-30T18:49:25 IST" name="tearDown" finished-at="2024-12-30T18:49:26 IST" duration-ms="255" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Seleniumframeworkpart.Tests.Standalonetest -->
+    </test> <!-- Submit order test -->
+  </suite> <!-- Suite -->
+</testng-results>
